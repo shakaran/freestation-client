@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+	<widget>
+		<name>TitleDisplay</name>
+		<properties>
+			<spacing>1</spacing>
+			<width>300</width>
+			<height>200</height>
+			<data>UCLM - FreeStation3</data>
+		</properties>
+	</widget>
+</interface>

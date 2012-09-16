@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/default.css" />
+		<script src="js/couch.js"></script>
+		<script src="js/base.js"></script>
+		<script src="js/mootools-core-1.4.5-full-more.js"></script>
+		<script src="js/mootools-more-1.4.0.1-fx-slide.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body onload="hello()">
+		
+		<div id="page">
+		    <!-- <video id="video" style="height:200px;width:200px" autoplay="true" src="sintel_trailer-480p.webm"></video>   -->
+		    <span id="usb_status" style="display:none">No</span>
+		    
+		    <div style="height:15px;"></div>
+		    <div id="links">
+	            <img style="height:16px" src="img/rss_logo.png" /> Última hora: La UCLM galardonada de excelencia con premio a la calidad. | La demanda de empleo de ingeniería informática crece un 500% en 2012
+	            <br />
+	            <a href="javascript:location.href='http://freestation.quijost.com'">Administración</a> 
+	            <a href="https://wiki.ubuntu.com/Novacut">@uclm_universidad</a>
+	        </div>
+	        
+	        <div id="panel_left" style="float:left;width:50%;">
+	            <div id="home_button">
+		            <img class="bhover" style="height:100px" src="img/client/home-button.png" title="Inicio">
+		        </div>
+		        <br style="clear:both" />
+		        
+		        <div id="status_page" /></div>
+		        
+		        <div id="sidebar_left">
+		            <div id="sidebar_left_container">
+		                <div class="first_option" id="distributions_button"  onclick="javascript:on_press_distributions()" class="zone_hover" style="margin-bottom:60px">
+                                <div class="legend_box" style="height:120px">
+                                   <img class="bhover" style="position:relative;top:-50px;height:60px" src="img/client/distributions-button.png" title="Inicio">
+                                   <div style="position:relative;top:-40px">
+                                        Descargar ISO de distribuciones GNU/Linux
+                                        <br />
+                                        Software libre empaquetado con los mejores
+                                        programas seleccionados
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="first_option" id="software_button" onclick="javascript:on_press_software()" class="zone_hover" style="margin-bottom:60px">
+                                <div class="legend_box" style="height:120px">
+                                   <img class="bhover" style="position:relative;top:-50px;height:60px" src="img/client/software-button.png" title="Inicio">
+                                   <div style="position:relative;top:-40px">
+                                        Descarga software libre para Windows con
+                                        características excelentes
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="first_option" id="documentation_button" onclick="javascript:on_press_documentation()" class="zone_hover" style="margin-bottom:60px">
+                                <div class="legend_box" style="height:120px">
+                                   <img class="bhover" style="position:relative;top:-50px;height:60px" src="img/client/documentation-button.png" title="Inicio">
+                                   <div style="position:relative;top:-40px">
+                                        Manuales de software
+                                        <br />
+                                        Los principales manuales elaborados por temática.
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="first_option" id="resources_button" onclick="javascript:on_press_resources()" class="zone_hover" style="margin-bottom:60px">
+                                <div class="legend_box" style="height:120px">
+                                   <img class="bhover" style="position:relative;top:-50px;height:60px" src="img/client/resources-button.png" title="Inicio">
+                                   <div style="position:relative;top:-40px">
+                                        Apuntes de asignaturas
+                                        <br />
+                                        Documentos de interés para alumnado y transparencias de
+                                        asignaturas.
+                                   </div>
+                                </div>
+                            </div>
+                    </div>
+		        </div>
+	        </div>
+		    
+		    <div id="sidebar_right">
+		        <div id="sidebar_right_container">
+		            <div id="welcome_panel">
+			            <h1>¡Bienvenido a FreeStation!</h1>
+			        
+			            <div style="color:#b7b3b3;">
+				            
+				            <h2>Punto de información</h2>
+				        
+				            <div style="height:400px;width:300px;float:left;padding:10px;text-align:left;border: 3px dotted #613854;background:#853d6e">
+		                        <h3 style="text-decoration:underline">Novedades</h3>
+		                        <ul>
+		                            <li>Novedad: Incorporada nueva versión de la distribución Debian 7.0</li>
+		                            <li>Novedad: Versión 1.5 liberada</li>
+		                            <li>Novedad: FreeStation dispone de más de 2000 POIs instalados</li>
+		                            <li>Corrección: arreglado fallo en la disposición de paneles</li>
+		                        </ul>
+		                    </div>
+		                    
+		                    <div style="float:right;width:200px;padding:10px;text-align:left;border: 3px dotted #613854;background:#853d6e">
+		                        <h3 style="text-decoration:underline">Categorías</h3>
+		                        <ul>
+		                            <li>Aplicaciones</li>
+		                            <li>Exámenes</li>
+		                            <li>Docencia</li>
+		                            <li>Investigación</li>
+		                        </ul>
+		                    </div>
+			
+			            </div>
+		            </div>
+	            </div>
+		    </div>
+		    
+		    <p id="hello">
+		    
+		    </p>
+		</div>
+		<div style="height:300px"></div>
+	</body>
+</html>

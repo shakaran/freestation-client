@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+body, input, textarea, select, option {
+    font-family: Ubuntu, sans-sarif;
+    font-size: 15px;
+}
+
+code, pre {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 17px;
+}
+
+.hide {
+    display: none !important;
+}

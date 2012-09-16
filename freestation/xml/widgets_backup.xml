@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+	<widget>
+		<name>TitleDisplay</name>
+		<properties>
+			<position type="relative" child="0" pack="None|Start|End">MainWindow</position>
+			<homogeneous>1</homogeneous>
+			<spacing>5</spacing>
+			<width>200</width>
+			<height>300</height>
+			<data>UCLM - FreeStation</data>
+		</properties>
+	</widget>
+	<widget>
+		<name>LogoArea</name>
+		<properties>
+			<position type="absolute"></position>
+			<width>200</width>
+			<height>300</height>
+		</properties>
+	</widget>
+	<widget>
+		<name>BrowserView</name>
+		<properties>
+			<position type="absolute"></position>
+            <width>200</width>
+            <height>300</height>
+		</properties>
+	</widget>
+	<widget>
+		<name>MenuActionsArea</name>
+		<properties>
+			<position type="absolute"></position>
+            <width>200</width>
+            <height>300</height>
+		</properties>
+	</widget>
+	<widget>
+		<name>MountInfo</name>
+		<properties>
+			<position type="absolute"></position>
+            <width>200</width>
+            <height>300</height>
+		</properties>
+	</widget>
+</interface>

@@ -1,0 +1,148 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+html{background-color: #A64646;height:100%;margin:0px;padding:0px}
+body {
+    /* text-align: center; */
+    background-color: #A64646;
+
+    color:white;
+    font-family:"Lato", sans-serif;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    /*background: linear-gradient(-45deg, rgba(92,190,115,1) 1%,rgba(24,43,4,1) 100%);*/
+    background:-webkit-linear-gradient(top, #404448, #660707);
+    background:-moz-linear-gradient(top, #404448, #660707);
+    background:-o-linear-gradient(top, #404448, #660707);
+    background:linear-gradient(top, #404448, #660707);
+    background:-webkit-linear-gradient(-90deg, #660707 1%, #a64646 100%);
+}
+.bhover{opacity:1.0}
+.bhover:hover{opacity:0.8}
+
+/*.zone_hover:hover{border:1px solid #6d0019;background-color: #a90329;border-radius:10px;-webkit-border-radius:10px}*/
+#home_button{float:left;width:300px}
+#sidebar_left{float:left;text-align:center;margin-right:50px;width:100%;height:750px}
+#sidebar_right{width:50%;float:right;}
+#page{margin:20px;margin-top:0px}
+.legend_box{margin:0 auto;top:50px;position:relative;border:3px solid #a64646;background:#d05757;border-radius:10px;-webkit-border-radius:10px;height:150px;width:350px}
+.legend_box:hover{border:3px solid #a64646;background-color: #a90329;border-radius:10px;-webkit-border-radius:10px}
+
+#links{
+    background:#333;
+    background:-webkit-linear-gradient(top, #444, #222);
+    background:-moz-linear-gradient(top, #444, #222);
+    background:-o-linear-gradient(top, #444, #222);
+    background:linear-gradient(top, #444, #222);
+    
+    padding:10px;
+    border-bottom:1px solid #404448;
+    text-shadow:0px -1px 1px rgba(0,0,0,0.5);
+    margin-bottom:15px;
+
+}
+
+#links a{
+    color:#e81f3b;
+    text-decoration:none;
+}
+
+#video:-webkit-full-screen     { max-height: 100%; }
+#video:-moz-full-screen        { max-height: 100%; }
+
+#welcome_panel
+{
+	font-family: Ubuntu;
+	font-size: 18px;
+	background: #613854;
+	padding: 15px;
+	border: 2px solid black;
+	background: -moz-linear-gradient(88deg, #581f46 4%, #613854 100%);
+	background: -webkit-linear-gradient(88deg, #581f46 4%, #613854 100%);
+	background: -o-linear-gradient(88deg, #581f46 4%, #613854 100%);
+	background: -ms-linear-gradient(88deg, #581f46 4%, #613854 100%);
+	background: linear-gradient(88deg, #581f46 4%, #613854 100%);
+	height: 800px;
+	overflow: auto;
+	border-radius:8px;
+	-webkit-border-radius:8px;q
+}
+
+.selected_box{padding:5px;margin:5px;margin-top:-15px;border-radius:8px;-webkit-border-radius:8px;border:2px solid black;background: #613854;color:white;display:block}
+.unselected_box{padding:5px;margin:5px;border:none;background: none;color:white;display:none}
+
+progress,          /* All HTML5 progress enabled browsers */
+progress[role]     /* polyfill */
+{
+
+    /* Turns off styling - not usually needed, but good to know. */
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    /* gets rid of default border in Firefox and Opera. */
+    border: none;
+
+    /* Needs to be in here for Safari polyfill so background images work as expected. */
+    background-size: auto;
+
+    /* Dimensions */
+    width: 400px;
+    height: 60px;
+
+}
+
+/* Polyfill */
+progress[role]:after {
+    background-image: none; /* removes default background from polyfill */
+}
+
+/* Ensure fallback text doesn't appear in polyfill */
+progress[role] strong {
+    display: none;
+}
+
+progress,                          /* Firefox  */
+progress[role][aria-valuenow] {    /* Polyfill */
+   background: #613854 !important; /* !important is needed by the polyfill */
+   border-radius:8px;-webkit-border-radius:8px;
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
+    background: #613854;
+    border-radius:8px;-webkit-border-radius:8px;
+}
+
+/* Firefox - value portion of progress bar */
+progress#bar::-moz-progress-bar {
+background-color: #991173;
+-moz-box-shadow: 1px 1px 1px #991173;
+border-radius:8px;-webkit-border-radius:8px;
+padding:0px;
+margin:0px;
+}
+
+/* Chrome, Safari - value portion of progress bar */
+progress#bar::-webkit-progress-value {
+background-color: #991173;
+-webkit-box-shadow: 1px 1px 1px #581f46;
+border-radius:8px;-webkit-border-radius:8px;
+padding:0px;
+margin:0px;
+}
+
+/* All other attributes */
+progress#bar {
+background-color: #991173;
+border: solid #613854 2px;
+border-radius: 5px;
+-moz-box-shadow: 3px 3px 3px #613854;
+-webkit-box-shadow: 3px 3px 3px #613854;
+box-shadow: 3px 3px 3px #613854;
+padding: 0px;
+width: 200px;
+height: 25px;
+}
+
