@@ -1,0 +1,4 @@
+nose
+pyhamcrest
+doublex
+sphinx
