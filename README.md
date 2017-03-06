@@ -1,7 +1,7 @@
 freestation-client
 ==================
  
-[![Travis status build](https://secure.travis-ci.org/shakaran/freestation-client.png?branch=master)](http://travis-ci.org/shakaran/freestation-client)
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) [![Travis status build](https://secure.travis-ci.org/shakaran/freestation-client.png?branch=master)](http://travis-ci.org/shakaran/freestation-client)
 
 The FreeStationClient source code for FreeStation.
 
